@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 import numpy as np
-import seaborn as sns
 
 testing_loss = [1.045, 1.009, 1.22, 1.22, 0.930, 0.952, 1.13, 1.074, 1.275, 0.66]
 std_dev_loss = np.std(testing_loss)

@@ -7,7 +7,7 @@ from torch.utils.data import DataLoader
 import matplotlib.pyplot as plt
 from tqdm import tqdm
 from sklearn.model_selection import train_test_split
-import torch.nn.functional as F
+
 
 transform = transforms.Compose([
     transforms.ToTensor(), 
